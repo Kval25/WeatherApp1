@@ -22,6 +22,10 @@ class ViewController: UIViewController {
     }
     
     
+}
+
+extension V
+
     @IBAction func searchPressed(_ sender: UIButton) {
         if let city = searchtextField.text {
             weatherManager.fetchWeather(cityName: city)
@@ -29,6 +33,7 @@ class ViewController: UIViewController {
         
     }
     
+    
 
-}
+
 
